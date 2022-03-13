@@ -95,9 +95,12 @@ func getTransactionsByDay(r []reward) {
 			dailyrewards[day][currency] += amount
 		}
 	}
+
+	fmt.Println(dailyrewards["2022-03-10"])
+
 	// prettify.PrintArray(dailyrewards)
 	// fmt.Println(len(dailyrewards))
-	fmt.Println(dailyrewards["2022-03-03"])
+	// fmt.Println(dailyrewards["2022-03-10"])
 }
 
 func main() {
